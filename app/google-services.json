@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68319289826",
+    "project_id": "delivery-674b7",
+    "storage_bucket": "delivery-674b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68319289826:android:77cc905135116fe56dd9bb",
+        "android_client_info": {
+          "package_name": "com.example.ordenrestaurante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68319289826-h8tijj0l875vvtt3eiktsna756n2vgnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXobegAojdEQ_ubDIkHbaMqd1W5bE7yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68319289826-h8tijj0l875vvtt3eiktsna756n2vgnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

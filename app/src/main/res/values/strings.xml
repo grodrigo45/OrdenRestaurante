@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">OrdenRestaurante</string>
+    <string name="title_home">Inicio</string>
+    <string name="dashboard">Principal</string>
+    <string name="notification">Notificaciones</string>
+
+    <string-array name="State">
+        <item>Online</item>
+        <item>Offline</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Persona 1</item>
+        <item>Persona 2</item>
+    </string-array>
+
+    <string-array name="dishes">
+        <item>Pizza</item>
+        <item>Hamburguesa</item>
+        <item>Sopa de Tortilla</item>
+        <item>Donas</item>
+        <item>Pasteles</item>
+        <item>Sopa de Mariscos</item>
+        <item>Pescado</item>
+        <item>Carne</item>
+        <item>Pollo</item>
+        <item>Sopa de Pollo</item>
+        <item>Sopa de Gallina</item>
+        <item>Ensalada de Vegetales</item>
+        <item>Salsa de Tomate</item>
+        <item>Budin</item>
+        <item>Coctel de Camaron</item>
+        <item>Coctel de Concha</item>
+        <item>Tortas</item>
+        <item>Tacos</item>
+        <item>Gringas</item>
+        <item>Huevo</item>
+        <item>Relampagos</item>
+        <item>Pupusas</item>
+    </string-array>
 </resources>
