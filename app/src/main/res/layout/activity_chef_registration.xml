@@ -36,7 +36,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="FirstName"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    tools:ignore="TouchTargetSizeCheck" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -50,7 +51,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="LastName"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    tools:ignore="TouchTargetSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -62,10 +64,11 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:drawableLeft="@android:drawable/sym_action_email"
                     android:drawablePadding="10dp"
                     android:hint="Email id"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    tools:ignore="TouchTargetSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -102,6 +105,7 @@
                 android:layout_marginTop="11dp"
                 android:orientation="horizontal">
 
+
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/CountryCode"
                     android:layout_width="120dp"
@@ -118,7 +122,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="MobileNumber"
-                        android:inputType="number" />
+                        android:inputType="number"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -257,7 +262,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
                     android:background="@drawable/btnrojo"
-                    android:drawableLeft="@drawable/whitemail"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
                     android:padding="10dp"
                     android:text="Email"
                     android:textColor="#FFFFFF" />
@@ -269,8 +274,8 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:background="@drawable/btnblueish"
-                    android:drawableLeft="@drawable/phonewhite"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/number_phone"
                     android:drawablePadding="5dp"
                     android:padding="8dp"
                     android:text="Phone"
