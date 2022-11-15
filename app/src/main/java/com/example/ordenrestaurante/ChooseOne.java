@@ -40,6 +40,10 @@ public class ChooseOne extends AppCompatActivity {
         animationDrawable.setEnterFadeDuration(850);
         animationDrawable.setExitFadeDuration(1600);
 
+        bgimage = findViewById(R.id.back3);
+        bgimage.setBackgroundDrawable(animationDrawable);
+        animationDrawable.start();
+
 
     }
 }
