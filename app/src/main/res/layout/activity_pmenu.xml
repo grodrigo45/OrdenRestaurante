@@ -116,6 +116,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_shape"
+            android:minHeight="48dp"
             android:text="Registrarse"
             android:textColor="#FFFFFF" />
 
