@@ -44,6 +44,11 @@ public class ChooseOne extends AppCompatActivity {
         bgimage.setBackgroundDrawable(animationDrawable);
         animationDrawable.start();
 
+        intent = getIntent();
+        type = intent.getStringExtra("Home").toString().trim();
+
+
+
 
     }
 }
