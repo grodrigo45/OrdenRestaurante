@@ -47,6 +47,10 @@ public class ChooseOne extends AppCompatActivity {
         intent = getIntent();
         type = intent.getStringExtra("Home").toString().trim();
 
+        Chef = (Button)findViewById(R.id.chef);
+        DeliveryPerson = (Button)findViewById(R.id.repartidor);/// se reemplazo delivery por repartido
+        Customer = (Button)findViewById(R.id.cliente);/// se reemplazo customer por cliente
+
 
 
 
