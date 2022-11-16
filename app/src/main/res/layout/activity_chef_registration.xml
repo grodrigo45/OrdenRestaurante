@@ -110,11 +110,26 @@
                     android:id="@+id/CountryCode"
                     android:layout_width="120dp"
                     android:layout_height="match_parent"
-                    app:ccp_autoDetectCountry="true"
+                    app:ccp_defaultNameCode="SV"
                     app:ccp_showNameCode="false"
                     tools:ccp_contentColor="#fcfdfd"
                     tools:ccp_textSize="20dp">
-<!--                    app:ccp_defaultNameCode="US"-->
+                    <!--                    app:ccp_defaultNameCode="US"-->
+
+
+                    <!--                    android:layout_width="120dp"-->
+                    <!--                    android:layout_height="match_parent"-->
+                    <!--                    app:ccp_autoDetectCountry="true"-->
+                    <!--                    app:ccp_showNameCode="false"-->
+                    <!--                    tools:ccp_contentColor="#fcfdfd"-->
+                    <!--                    tools:ccp_textSize="20dp"-->
+
+
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    app:ccp_showFullName="true"-->
+                    <!--                    app:ccp_showPhoneCode="false"-->
+                    <!--                    app:ccp_showNameCode="false"-->
 
                 </com.hbb20.CountryCodePicker>
 
