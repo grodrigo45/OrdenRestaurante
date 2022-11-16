@@ -40,10 +40,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:19.1.1'
     implementation 'com.google.firebase:firebase-messaging:20.1.0'
     //CountryCodePicker
-    implementation 'com.hbb20:cpp:2.5.0'
-    implementation 'com.hbb20:cpp:X.Y.Z'
+//    implementation 'com.hbb20:cpp:2.5.0'
+//    implementation 'com.hbb20:cpp:X.Y.Z'
     implementation 'com.hbb20:ccp:2.3.1'
-    implementation 'com.hbb20:android-country-picker:X.Y.Z'
+//    implementation 'com.hbb20:android-country-picker:X.Y.Z'
 
     //
     testImplementation 'junit:junit:4.13.2'
