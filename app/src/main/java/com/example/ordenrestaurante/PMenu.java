@@ -12,14 +12,15 @@ import android.widget.ImageView;
 
 public class PMenu extends AppCompatActivity {
 
-    Button iniciaremail,iniciartelefono,Registrarse;
+    Button iniciaremail, iniciartelefono, Registrarse;
     ImageView bgimage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pmenu);
 
-        final Animation Zoomin = AnimationUtils.loadAnimation(this,R.anim.zooom1);
+        final Animation Zoomin = AnimationUtils.loadAnimation(this, R.anim.zooom1);
         final Animation Zoomout = AnimationUtils.loadAnimation(this, R.anim.zoom2);
 
         bgimage = findViewById(R.id.back2);
@@ -60,14 +61,15 @@ public class PMenu extends AppCompatActivity {
             }
         });
 
-        iniciaremail=(Button) findViewById(R.id.IniciarEmail);
+        iniciaremail = (Button) findViewById(R.id.IniciarEmail);
         iniciartelefono = (Button) findViewById(R.id.IniciarTelefono);
         Registrarse = (Button) findViewById(R.id.Registrarse);
 
         iniciaremail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent iniciarem = new Intent(PMenu.this,Menu2.class);
+                Intent iniciarem = new Intent(PMenu.this, Menu2.class);
+                iniciarem.putExtra("Inicio", "Email");
                 startActivity(iniciarem);
                 finish();
             }
@@ -76,7 +78,8 @@ public class PMenu extends AppCompatActivity {
         iniciartelefono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent iniciartel = new Intent(PMenu.this,Menu2.class);
+                Intent iniciartel = new Intent(PMenu.this, Menu2.class);
+                iniciartel.putExtra("Inicio", "Telefono");
                 startActivity(iniciartel);
                 finish();
             }
@@ -85,15 +88,16 @@ public class PMenu extends AppCompatActivity {
         Registrarse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent registro=new Intent(PMenu.this,Menu2.class);
-                registro.putExtra("Inicio","Registrarse");
+                Intent registro = new Intent(PMenu.this, Menu2.class);
+                registro.putExtra("Inicio", "Registrarse");
                 startActivity(registro);
                 finish();
             }
         });
     }
+
     @Override
-    protected void onDestroy(){
+    protected void onDestroy() {
         super.onDestroy();
         System.gc();
     }
