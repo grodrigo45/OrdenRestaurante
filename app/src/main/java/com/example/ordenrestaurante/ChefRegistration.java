@@ -187,7 +187,7 @@ public class ChefRegistration extends AppCompatActivity {
                                                                 } else {
                                                                     mDialog.dismiss();
 
-//                                                                    ReusableCodeForAll.ShowAlert(ChefRegistration.this, "Error", task.getException().getMessage());
+                                                                    ReusableCodeForAll.ShowAlert(ChefRegistration.this, "Error", task.getException().getMessage());
                                                                 }
                                                             }
                                                         });
