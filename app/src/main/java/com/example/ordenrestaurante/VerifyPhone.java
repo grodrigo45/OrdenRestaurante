@@ -23,6 +23,8 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
+import dagger.Reusable;
+
 public class VerifyPhone extends AppCompatActivity {
 
     String verificationId;
