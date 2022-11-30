@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.ordenrestaurante.deliveryFoodPanel.DeliveryPendingOrderFragment;
+import com.example.ordenrestaurante.deliveryFoodPanel.DeliveryShipOrderFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DeliveryFoodPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
