@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
+public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,18 +22,18 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         Fragment fragment = null;
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.chefHome:
-                fragment=new ChefHomeFragment();
+                fragment = new ChefHomeFragment();
                 break;
             case R.id.PendingOrders:
-                fragment=new ChefPendingOrderFragment();
+                fragment = new ChefPendingOrderFragment();
                 break;
             case R.id.Orders:
-                fragment=new ChefOrderFragment();
+                fragment = new ChefOrderFragment();
                 break;
             case R.id.chefProfile:
-                fragment=new ChefProfileFragment();
+                fragment = new ChefProfileFragment();
                 break;
         }
         return loadcheffragment(fragment);
@@ -41,8 +41,8 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
 
     private boolean loadcheffragment(Fragment fragment) {
 
-        if (fragment != null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.frame_container,fragment).commit();
+        if (fragment != null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, fragment).commit();
             return true;
         }
         return false;
