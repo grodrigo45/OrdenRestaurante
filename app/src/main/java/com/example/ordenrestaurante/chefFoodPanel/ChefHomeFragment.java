@@ -25,8 +25,7 @@ public class ChefHomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_chef_home,null);
+        View v = inflater.inflate(R.layout.fragment_chef_home, null);
         getActivity().setTitle("Home");
         setHasOptionsMenu(true);
         return v;
@@ -35,14 +34,14 @@ public class ChefHomeFragment extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        inflater.inflate(R.menu.logout,menu);
+        inflater.inflate(R.menu.logout, menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         int idd = item.getItemId();
-        if(idd == R.id.LOGOUT){
+        if (idd == R.id.LOGOUT) {
             Logout();
             return true;
         }
@@ -53,18 +52,10 @@ public class ChefHomeFragment extends Fragment {
 
         FirebaseAuth.getInstance().signOut();
         Intent intent = new Intent(getActivity(), PMenu.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
-
-
-
-
-
-
-
-
-
+}
 
 
 //    // TODO: Rename parameter arguments, choose names that match
@@ -106,4 +97,3 @@ public class ChefHomeFragment extends Fragment {
 //            mParam2 = getArguments().getString(ARG_PARAM2);
 //        }
 //    }
-}
