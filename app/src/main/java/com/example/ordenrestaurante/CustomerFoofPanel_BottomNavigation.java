@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerCartFragment;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerHomeFragment;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerOrdersFragment;
+import com.example.ordenrestaurante.customerFoodPanel.CustomerProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CustomerFoofPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
