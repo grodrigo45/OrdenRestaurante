@@ -14,7 +14,7 @@
         android:theme="@style/Theme.OrdenRestaurante"
         tools:targetApi="31">
         <activity
-            android:name=".chef_postDish"
+            android:name=".chefFoodPanel.chef_postDish"
             android:exported="false" />
         <activity
             android:name=".ChefFoodPanel_BottomNavigation"
@@ -72,9 +72,6 @@
             android:exported="false" />
         <activity
             android:name=".Cheflogin"
-            android:exported="false" />
-        <activity
-            android:name=".Chef"
             android:exported="false" />
         <activity
             android:name=".ChooseOne"

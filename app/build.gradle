@@ -41,6 +41,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:20.1.0'
     // Fragment
     implementation "androidx.fragment:fragment-ktx:1.3.2"
+    // image crop
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
     // swipe
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     //CountryCodePicker
