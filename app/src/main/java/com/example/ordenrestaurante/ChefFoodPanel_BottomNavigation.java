@@ -7,7 +7,12 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.ordenrestaurante.chefFoodPanel.ChefHomeFragment;
+import com.example.ordenrestaurante.chefFoodPanel.ChefOrderFragment;
+import com.example.ordenrestaurante.chefFoodPanel.ChefPendingOrderFragment;
+import com.example.ordenrestaurante.chefFoodPanel.ChefProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
