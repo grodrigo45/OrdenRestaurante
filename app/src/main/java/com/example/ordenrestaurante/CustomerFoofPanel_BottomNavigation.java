@@ -11,6 +11,7 @@ import com.example.ordenrestaurante.customerFoodPanel.CustomerCartFragment;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerHomeFragment;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerOrdersFragment;
 import com.example.ordenrestaurante.customerFoodPanel.CustomerProfileFragment;
+import com.example.ordenrestaurante.customerFoodPanel.CustomerTrackFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CustomerFoofPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -48,8 +49,8 @@ public class CustomerFoofPanel_BottomNavigation extends AppCompatActivity implem
                 break;
         }
         switch (item.getItemId()) {
-            case R.id.cart:
-                fragment = new CustomerCartFragmnet();
+            case R.id.track:
+                fragment = new CustomerTrackFragment();
                 break;
         }
         return loadcheffragment(fragment);
