@@ -22,6 +22,7 @@
     <color name="DarkBlue">#250285</color>
 
     <color name="yourSelectedColor">#ff0000</color>
+    <color name="colorPrimaryDark">#00574B</color>
 
 
 </resources>

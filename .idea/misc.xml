@@ -40,12 +40,14 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/activity_registration.xml" value="0.33" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/activity_sendotp.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/activity_verify_phone.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/customer_menudish.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_chef_home.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_chef_order.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_chef_pending_order.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_chef_profile.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_cart.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_home.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_home2.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_orders.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_profile.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Orden Restaurante/OrdenRestaurante/app/src/main/res/layout/fragment_customer_track.xml" value="0.10740740740740741" />

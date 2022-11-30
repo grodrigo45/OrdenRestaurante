@@ -1,4 +1,4 @@
-package com.example.ordenrestaurante;
+package com.example.ordenrestaurante.Models;
 
 public class FoodDetails {
 

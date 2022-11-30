@@ -20,8 +20,8 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.ordenrestaurante.Chef;
-import com.example.ordenrestaurante.FoodDetails;
+import com.example.ordenrestaurante.Models.Chef;
+import com.example.ordenrestaurante.Models.FoodDetails;
 import com.example.ordenrestaurante.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
