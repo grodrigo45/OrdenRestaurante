@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.ordenrestaurante.customerFoodPanel.CustomerCartFragment;
+import com.example.ordenrestaurante.customerFoodPanel.CustomerHomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CustomerFoofPanel_BottomNavigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -30,7 +32,7 @@ public class CustomerFoofPanel_BottomNavigation extends AppCompatActivity implem
         }
         switch (item.getItemId()) {
             case R.id.cart:
-                fragment = new CustomerCartFragmnet();
+                fragment = new CustomerCartFragment();
                 break;
         }
         switch (item.getItemId()) {
