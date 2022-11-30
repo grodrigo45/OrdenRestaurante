@@ -41,6 +41,8 @@ import com.google.firebase.storage.UploadTask;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
+import java.util.UUID;
+
 public class chef_postDish extends AppCompatActivity {
 
     ImageButton imageButton;
