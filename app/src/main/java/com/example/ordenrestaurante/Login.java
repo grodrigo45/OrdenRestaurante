@@ -72,12 +72,12 @@ public class Login extends AppCompatActivity {
                                         finish();
 
                                     } else {
-                                        ReusableCodeForAll.ShowAlert(Login.this, "Verification Failed", "You Have Not Verified Your Email");
+                                        ReusableCodeForAll.showAlert(Login.this, "Verification Failed", "You Have Not Verified Your Email");
 
                                     }
                                 } else {
                                     mDialog.dismiss();
-                                    ReusableCodeForAll.ShowAlert(Login.this, "Error", task.getException().getMessage());
+                                    ReusableCodeForAll.showAlert(Login.this, "Error", task.getException().getMessage());
                                 }
                             }
                         });

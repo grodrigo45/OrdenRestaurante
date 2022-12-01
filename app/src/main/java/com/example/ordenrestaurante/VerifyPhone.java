@@ -183,7 +183,7 @@ public class VerifyPhone extends AppCompatActivity {
                             startActivity(intent);
                             finish();
                         } else {
-                            ReusableCodeForAll.ShowAlert(VerifyPhone.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(VerifyPhone.this, "Error", task.getException().getMessage());
                         }
                     }
                 });

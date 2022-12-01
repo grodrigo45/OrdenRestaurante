@@ -180,7 +180,7 @@ public class ChefVerifyPhone extends AppCompatActivity {
                             startActivity(intent);
                             finish();
                         } else {
-                            ReusableCodeForAll.ShowAlert(ChefVerifyPhone.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(ChefVerifyPhone.this, "Error", task.getException().getMessage());
                         }
                     }
                 });

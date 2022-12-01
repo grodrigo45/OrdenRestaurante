@@ -72,12 +72,12 @@ public class Delivery_Login extends AppCompatActivity {
                                         finish();
 
                                     }else{
-                                        ReusableCodeForAll.ShowAlert(Delivery_Login.this,"Verification Failed","You Have Not Verified Your Email");
+                                        ReusableCodeForAll.showAlert(Delivery_Login.this,"Verification Failed","You Have Not Verified Your Email");
 
                                     }
                                 }else{
                                     mDialog.dismiss();
-                                    ReusableCodeForAll.ShowAlert(Delivery_Login.this,"Error",task.getException().getMessage());
+                                    ReusableCodeForAll.showAlert(Delivery_Login.this,"Error",task.getException().getMessage());
                                 }
                             }
                         });

@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.hbb20.CountryCodePicker;
-//import com.example.ordenrestaurante.ReusableCodeForAll;
+import com.example.ordenrestaurante.ReusableCodeForAll;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -187,7 +187,7 @@ public class ChefRegistration extends AppCompatActivity {
                                                                 } else {
                                                                     mDialog.dismiss();
 
-                                                                    ReusableCodeForAll.ShowAlert(ChefRegistration.this, "Error", task.getException().getMessage());
+                                                                    ReusableCodeForAll.showAlert(ChefRegistration.this, "Error", task.getException().getMessage());
                                                                 }
                                                             }
                                                         });

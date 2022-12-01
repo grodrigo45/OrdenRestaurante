@@ -72,12 +72,12 @@ public class Cheflogin extends AppCompatActivity {
                                         finish();
 
                                     } else {
-                                        ReusableCodeForAll.ShowAlert(Cheflogin.this, "Verification Failed", "You Have Not Verified Your Email");
+                                        ReusableCodeForAll.showAlert(Cheflogin.this, "Verification Failed", "You Have Not Verified Your Email");
 
                                     }
                                 } else {
                                     mDialog.dismiss();
-                                    ReusableCodeForAll.ShowAlert(Cheflogin.this, "Error", task.getException().getMessage());
+                                    ReusableCodeForAll.showAlert(Cheflogin.this, "Error", task.getException().getMessage());
                                 }
                             }
                         });

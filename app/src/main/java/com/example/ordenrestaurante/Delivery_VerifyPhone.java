@@ -182,7 +182,7 @@ public class Delivery_VerifyPhone extends AppCompatActivity {
                             startActivity(intent);
                             finish();
                         } else {
-                            ReusableCodeForAll.ShowAlert(Delivery_VerifyPhone.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(Delivery_VerifyPhone.this, "Error", task.getException().getMessage());
                         }
                     }
                 });

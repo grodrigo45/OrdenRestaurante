@@ -54,7 +54,7 @@ public class Registration extends AppCompatActivity {
         cpass = (TextInputLayout) findViewById(R.id.confirmpass);
         mobileno = (TextInputLayout) findViewById(R.id.Mobilenumber);
         localaddress = (TextInputLayout) findViewById(R.id.Localaddress);
-        pincode = (TextInputLayout) findViewById(R.id.Pincodee);
+        pincode = (TextInputLayout) findViewById(R.id.Pincode);
         Statespin = (Spinner) findViewById(R.id.Statee);
         Cityspin = (Spinner) findViewById(R.id.Citys);
         area = (TextInputLayout) findViewById(R.id.Area);
@@ -192,7 +192,7 @@ public class Registration extends AppCompatActivity {
                                                                     Alert.show();
                                                                 } else {
                                                                     mDialog.dismiss();
-                                                                    ReusableCodeForAll.ShowAlert(Registration.this, "Error", task.getException().getMessage());
+                                                                    ReusableCodeForAll.showAlert(Registration.this, "Error", task.getException().getMessage());
                                                                 }
                                                             }
                                                         });
@@ -204,7 +204,7 @@ public class Registration extends AppCompatActivity {
                                 });
                             } else {
                                 mDialog.dismiss();
-                                ReusableCodeForAll.ShowAlert(Registration.this, "Error", task.getException().getMessage());
+                                ReusableCodeForAll.showAlert(Registration.this, "Error", task.getException().getMessage());
                             }
                         }
                     });

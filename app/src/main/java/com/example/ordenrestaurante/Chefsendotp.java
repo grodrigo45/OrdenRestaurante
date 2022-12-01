@@ -20,7 +20,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
-
+import com.example.ordenrestaurante.ReusableCodeForAll;
 import java.util.concurrent.TimeUnit;
 
 public class Chefsendotp extends AppCompatActivity {
@@ -181,7 +181,7 @@ public class Chefsendotp extends AppCompatActivity {
                             finish();
 
                         } else {
-                            ReusableCodeForAll.ShowAlert(Chefsendotp.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(Chefsendotp.this, "Error", task.getException().getMessage());
                         }
 
                     }

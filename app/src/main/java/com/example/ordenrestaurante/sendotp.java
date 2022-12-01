@@ -179,7 +179,7 @@ public class sendotp extends AppCompatActivity {
                             finish();
 
                         } else {
-                            ReusableCodeForAll.ShowAlert(sendotp.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(sendotp.this, "Error", task.getException().getMessage());
                         }
 
                     }

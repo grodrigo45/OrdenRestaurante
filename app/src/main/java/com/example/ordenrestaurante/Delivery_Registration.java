@@ -191,7 +191,7 @@ public class Delivery_Registration extends AppCompatActivity {
                                                                     Alert.show();
                                                                 } else {
                                                                     mDialog.dismiss();
-                                                                    ReusableCodeForAll.ShowAlert(Delivery_Registration.this, "Error", task.getException().getMessage());
+                                                                    ReusableCodeForAll.showAlert(Delivery_Registration.this, "Error", task.getException().getMessage());
                                                                 }
                                                             }
                                                         });
@@ -203,7 +203,7 @@ public class Delivery_Registration extends AppCompatActivity {
                                 });
                             } else {
                                 mDialog.dismiss();
-                                ReusableCodeForAll.ShowAlert(Delivery_Registration.this, "Error", task.getException().getMessage());
+                                ReusableCodeForAll.showAlert(Delivery_Registration.this, "Error", task.getException().getMessage());
 
                             }
                         }

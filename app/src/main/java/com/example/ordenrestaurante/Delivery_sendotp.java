@@ -182,7 +182,7 @@ public class Delivery_sendotp extends AppCompatActivity {
                             finish();
 
                         } else {
-                            ReusableCodeForAll.ShowAlert(Delivery_sendotp.this, "Error", task.getException().getMessage());
+                            ReusableCodeForAll.showAlert(Delivery_sendotp.this, "Error", task.getException().getMessage());
                         }
 
                     }
