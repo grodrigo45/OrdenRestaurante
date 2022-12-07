@@ -47,7 +47,7 @@
             android:layout_height="30dp"
             android:layout_marginLeft="12dp"
             android:background="#D0FFFFFF"
-            android:entries="@array/DishName" />
+            android:entries="@array/dishes" />
 
     </LinearLayout>
 
